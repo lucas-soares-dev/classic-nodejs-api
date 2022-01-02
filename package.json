@@ -1,0 +1,32 @@
+{
+  "name": "classic-nodejs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "startdev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-soares-dev/classic-nodejs-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-soares-dev/classic-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/lucas-soares-dev/classic-nodejs-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "jimp": "^0.16.1",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}

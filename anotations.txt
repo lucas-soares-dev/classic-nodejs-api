@@ -1,0 +1,5 @@
+init project
+
+npm init -y
+npm install express mongoose cors dotenv bcrypt express-fileupload jimp uuid
+npm install nodemon --dev
